@@ -6,7 +6,7 @@ separately in the same form and still saving them all at once in the same reques
 == Installation
 
 Batch translation supports Globalize 3 and is not backward compatible.
-Put the following line in your Gemfile and run <pre>bundle install</pre>.
+Put the following line in your Gemfile and run _bundle_ _install_.
 
   gem 'batch_translations', :git => 'git://github.com/fruell/batch_translations.git'
 
@@ -20,7 +20,7 @@ place
 
   accepts_nested_attributes_for :translations
 
-and if you use <pre>attr_accessible</pre>
+and if you use _attr_accessible_
 
   attr_accessible :translations_attributes
 
